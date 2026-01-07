@@ -1,0 +1,6 @@
+p=int(input("enter length"))
+q=int(input("enter length"))
+print("ärea is")
+print(p*q)
+print ("perimeter is")
+print(2*(p+q))
