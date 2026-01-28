@@ -1,0 +1,17 @@
+str=input("enter a string")
+countcons=0
+count=0
+vowels='aeiouAEIOU'
+for i in str:
+    if i in vowels:
+        
+        count=count+1
+    else:
+         
+         countcons=countcons+1
+print("length of string")
+print(len(str))
+print("no of vowels")
+print(count)
+print("no of consonants")
+print(countcons)
