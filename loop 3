@@ -1,0 +1,13 @@
+str=input("enter string")
+countalpha=0
+countdig=0
+
+for ch in str:
+    if ch.isalpha():
+        countalpha+=1
+    elif ch.isdigit():
+        countdig+=1
+      
+      
+print("älphabets",countalpha)
+print("digits" , countdig)
