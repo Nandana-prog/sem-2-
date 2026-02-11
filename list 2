@@ -1,0 +1,17 @@
+import random 
+x=int(input("enter the number to be checked"))
+
+L =[]
+
+for i in range (20):
+    a=random.randint(1,100)
+    L.append(a)
+print ("the list is ",L)
+count =0
+for i in range (20):
+    if x==L[i]:
+        
+       count=count+1
+
+print ("the number of occurrences is  ",count)    
+  
