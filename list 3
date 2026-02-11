@@ -1,0 +1,14 @@
+import random 
+
+L =[]
+
+for i in range (50):
+    a=random.randint(1,50)
+    L.append(a)
+print ("the list is ",L)
+
+unique=[]
+for num in L :
+    if num not in unique:
+        unique.append(num)
+print( "list after removing duplicate values",unique)        
