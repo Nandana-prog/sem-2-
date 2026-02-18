@@ -1,0 +1,12 @@
+lst=["nandana","keya",("rishabh","dhwanil")]
+countb=0
+countg=0
+
+for ele  in lst:
+    if isinstance(ele,tuple):
+        countb=countb+len(ele)
+        
+    else:
+        countg=countg+1
+print("no of boys are ",countb)
+print("no of girls are",countg)
