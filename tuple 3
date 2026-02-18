@@ -1,0 +1,8 @@
+t=(15,1,2007)
+t1=(12,1,2007)
+
+l1=list(t)
+l2=list(t1)
+
+print("no of days in between ",l1[0]-l2[0]-1)
+
