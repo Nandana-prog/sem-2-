@@ -1,0 +1,15 @@
+lst=[(1,"nandana",19),(2,"keya",18),(3,"dhruvi",19)]
+
+name_list=[]
+rollno_list=[]
+age_list=[]
+
+for roll,name,age in lst:
+    rollno_list.append(roll)
+    name_list.append(name)
+    age_list.append(age)
+
+
+print("roll numbers are ",rollno_list)
+print("names are ",name_list)
+print("age are",age_list)
