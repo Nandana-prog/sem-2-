@@ -1,0 +1,5 @@
+food_list=[("pizza",229),("burger",89),("pasta" , 249)]
+
+sorted_list=sorted(food_list,key= lambda x:x[1],reverse=True)
+
+print(sorted_list)
