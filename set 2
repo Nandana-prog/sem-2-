@@ -1,0 +1,5 @@
+day1={12,34,256,34}
+day2={12,56,45,34,678}
+print("visitors who visited both the days",day1.intersection(day2))
+print("visitors who visited only on one day", day1.symmetric_difference(day2))
+print("total unique visitors on both day",day1.union(day2))
