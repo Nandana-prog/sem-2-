@@ -1,0 +1,13 @@
+s1=set(input("enter elements ").split())
+s2=set(input("enter elements ").split())
+print("is first set subset of second")
+print(s1.issubset(s2))
+
+print("is second a subset of first")
+print(s2.issubset(s1))
+
+if s1==s2:
+    print("sets are equal")
+
+else:
+    print("not equal")
