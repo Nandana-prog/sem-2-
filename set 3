@@ -1,0 +1,3 @@
+list1=[1,2,3,4,23,56,78]
+s1=set(list1)
+print("after removing duplicate values",s1)
