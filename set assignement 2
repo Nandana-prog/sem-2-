@@ -1,0 +1,15 @@
+p=input("enter the paragraph ")
+words=set(p.split())
+
+print("unique words:",words)
+print("no of ubique words ",len(words))
+
+s1=input("enter first sentence")
+s2=input("enter second sentence")
+
+set1=set(s1.split())
+set2=set(s2.split())
+
+common=set1.intersection(set2)
+
+print("common words ",common)
