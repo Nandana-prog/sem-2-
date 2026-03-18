@@ -1,0 +1,17 @@
+def count_lower_upper(text):
+    count={'uppercase ':0,'lowercase':0}
+
+    for char in text :
+        if char.islower():
+            count['lowercase']+=1
+
+        elif char.isupper():
+            count['uppercase']+=1
+
+    return count
+
+str1=input("enter the string")
+result=count_lower_upper(str1)
+
+print("original string",str1)
+print(result)
