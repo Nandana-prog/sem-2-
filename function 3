@@ -1,0 +1,17 @@
+def create_array(depth,rows,cols, value):
+    three_d=[]
+    for d in range(depth):
+        layer=[]
+
+        for r in range(rows):
+            row=[]
+            for c in range(cols):
+                row .append(value)
+                layer.append(row)
+                three_d.append(layer)
+
+    return three_d
+
+result=create_array(2,3,4,0)
+for layer in result:
+    print(layer)
