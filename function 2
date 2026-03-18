@@ -1,0 +1,12 @@
+def compute(n):
+    s=str(n)
+    nn=int(s+s)
+    nnn=int(s+s+s)
+    nnnn=int(s+s+s+s)
+
+    
+    return n+nn+nnn+nnnn
+
+for i in range(4,8):
+    result=compute(i)
+    print (result)
