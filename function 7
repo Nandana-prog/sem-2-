@@ -1,0 +1,10 @@
+def ispalindrome(text):
+    text1=text.replace("","").lower()
+    return text1==text1[::-1]
+string=input("enter the srring")
+if ispalindrome(string):
+    print("it is a palindrome")
+
+else:
+    print("not a palindrome")
+    
