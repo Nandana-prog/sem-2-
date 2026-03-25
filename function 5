@@ -1,0 +1,13 @@
+def isspangram(s):
+ alphaset=set("abcdefghijklmnopqrsuvwxyz")
+ s=s.lower()
+ return alphaset<=set(s)
+
+text=input("enter a sentence")
+
+if isspangram(text):
+    print("the given sentence is a program")
+else:
+    print("the given sentence is not a spangram")
+    
+
