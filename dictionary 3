@@ -1,0 +1,20 @@
+for emp in employees:
+    dept = emp['dept_no']
+    sal = emp['salary']
+    
+    if dept not in dept_stats:
+        
+        dept_stats[dept] = {'min': sal, 'max': sal}
+    else:
+        
+        if sal < dept_stats[dept]['min']:
+            dept_stats[dept]['min'] = sal
+        if sal > dept_stats[dept]['max']:
+            dept_stats[dept]['max'] = sal
+
+
+print("Dept No | Min Salary | Max Salary")
+print("-" * 33)
+for dept, stats in sorted(dept_stats.items()):
+    print(f"{dept:<8} | {stats['min']:<10} | {stats['max']}")
+
